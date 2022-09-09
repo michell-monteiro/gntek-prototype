@@ -5,64 +5,81 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <title>GN Tek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
     <!-- Cabeçalho -->
     <header class="header-bg">
         <div class="menu">
-            <div class="logo">
-                <a href="#">GN TEK</a>
+            <div class="menu-logo">
+                <a href="#" class="border-logo">GN TEK</a>
             </div>
             <div class="menu-nav">
                 <ul>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Certificados</a></li>
-                    <li><a href="#">O que fazemos?</a></li>
-                    <li><a href="#">Fale conosco</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#certificados">Certificados</a></li>
+                    <li><a href="#diferencial">Nosso diferencial</a></li>
+                    <li><a href="#" class="buttom-destaque" id="buttom-color">Fale conosco</a></li>
                 </ul>
             </div>
         </div>
     </header>
 
+    <!-- Destaque -->
+    <section class="img-bg opacity">
+        <h1>Garantimos o bom funcionamento <br> do seu aparelho hospitalar</h1>
+        <a href="#" class="buttom-destaque">Fale conosco</a>
+    </section>
+
     <!-- Sobre -->
-    <section class="sobre">
-        <h1>Sobre</h1>
-        <p>Desde 2010, nós da <strong>GN TEK</strong> atuamos na área de manutenção de aparelhos hospitalares.</p>
-        <p>Com a larga experiência que adquirimos nesses 12 anos, garantimos aos nossos clientes que eles não se decepcionarão com o nosso trabalho.</p>
+    <section class="sobre" id="sobre">
+        <div class="sobre-info">
+            <h1>Sobre</h1>
+            <p>Somos uma empresa especializada em manutenção de aparelhos de Fisioterapia, Estética, Médico e hospitalares. Desde 2010 na área realizando diversos serviços, tais como:</p>
+            <p><strong>Calibração de aparelhos</strong> para vistoria da Anvisa ou Vigilância Sanitária, com emissão de certificados de calibração ou laudos técnicos padrão RBC (Inmetro).</p>
+            <p><strong>Manutenções corretivas</strong> e preventivas com garantia do serviço prestado.</p>
+        </div>
         <div class="img-sobre">
-            <img src="" alt="">
+            <img src="img/calibrando-aparelho.png" alt="Técnico eletrônico calibrando um aparelho médico.">
         </div>
     </section>
 
     <!-- Certificados -->
-    <section class="certificados">
-        <h1>Certificados</h1>
-        <p>Garantimos a confiabilidade do nosso trabalho, pois ele é certificado</p>
-        <img src="" alt="">
-        <img src="" alt="">
+    <section class="certificados" id="certificados">
+        <div class="certificado-info">
+            <h1>Certificados</h1>
+            <p>Nossos certificados (laudos) atendem padrão Inmetro por possuir rastreabilidade RBC, garantindo a credibilidade de uma calibração 100% segura e eficaz!</p>
+            <p>Mas o que é <strong>calibração RBC?</strong> A calibração RBC, ou “Acreditada”, é aquela que é reconhecida pelo <strong>INMETRO</strong>, além de outros órgãos internacionais. A sigla RBC significa “Rede Brasileira de Calibração”, cujo selo certifica que a calibração foi realizada em um dos laboratórios que integram essa rede.</p>
+        </div>
+        <div>
+            <img src="img/certificado-inmetro.png" alt="">
+        </div>
     </section>
 
     <!-- O que fazemos? -->
-    <section class="trabalho-em-si">
-        <h1>O que fazemos?</h1>
-        <p>Realizamos manutenções em aparelhos de:</p>
+    <section class="diferencial" id="diferencial">
+        <h1>Nosso diferencial</h1>
+        <p><strong>Enviamos o técnico até você!</strong></p>
         <div>
-            <div>Fisioterapia</div>
-            <div>Estética</div>
-            <div>Médicos</div>
-            <div>Hospitalares</div>
-            <div>Autoclaves</div>
-            <div>Esterilizadores</div>
+            <div class="fisio">Fisioterapia</div>
+            <div class="est">Estética</div>
+            <div class="med">Médicos</div>
+            <div class="hosp">Hospitalares</div>
+            <div class="autoc">Autoclaves</div>
+            <div class="ester">Esterilizadores</div>
         </div>
 
-        <p>Nosso diferencial? Porque levar seu instrumento até uma assistência técnica, se nós podemos ir até você.</p>
+        <p>Visitas Técnicas para análise, calibração e manutenção no próprio estabelecimento, com a <strong>vantagem</strong> de ter o problema resolvido <strong>no mesmo dia</strong>, evitando transtornos que teria com a ausência de seu aparelho.</p>
     </section>
 
     <!-- O que está esperando? -->
     <section class="contato">
         <h1>O que está esperando?</h1>
-        <p>Entre já em contato conosco e agente uma visita técnica</p>
+        <p>Entre já em contato conosco e agende uma visita técnica!</p>
         <div class="button-contato">
             <a href="#">Fale conosco</a>
         </div>
