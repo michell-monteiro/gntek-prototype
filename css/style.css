@@ -167,3 +167,54 @@ a {
     line-height: 1.4;
     margin-bottom: 1em;
 }
+
+/* Diferencial */
+.diferencial {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 0px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 3px solid var(--cor-principal);
+}
+.diferencial h1 {
+    font-size: 3em;
+    margin-bottom: .5em;
+}
+.diferencial p {
+    font-size: 1.25em;
+    line-height: 1.4;
+    margin-bottom: 1em;
+}
+
+/* O que está esperando? */
+.contato {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 0px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contato h1 {
+    font-size: 3em;
+    margin-bottom: .5em;
+}
+.contato p {
+    font-size: 1.25em;
+    line-height: 1.4;
+    margin-bottom: 1em;
+}
+
+/* Contato */
+.rodape {
+    margin: 0 auto;
+    background-color: #174b4b;
+    color: white;
+    text-align: center;
+}
+.rodape a {
+    color: white;
+    margin: 5px;
+}
