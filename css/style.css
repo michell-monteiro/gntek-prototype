@@ -190,6 +190,7 @@ a {
     padding: 60px 0px;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     border-bottom: 3px solid var(--cor-principal);
 }
@@ -216,6 +217,7 @@ a {
     align-items: center;
     flex-wrap: wrap;
     border-bottom: 3px solid var(--cor-principal);
+    background-color: #fff;
 }
 .diferencial h1 {
     font-size: 3em;
@@ -225,6 +227,10 @@ a {
     font-size: 1.25em;
     line-height: 1.4;
     margin-bottom: 1em;
+}
+.diferencial-info {
+    flex: 2 1 300px;
+    margin: 0 10px;
 }
 
 /* O que está esperando? */
