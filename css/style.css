@@ -288,11 +288,17 @@ a {
     color: #aaaaaa;
     text-align: center;
 }
+.rodape h2 {
+    padding-top: 20px;
+}
 .rodape a {
     color: #aaaaaa;
 }
 .rodape p {
     padding: 10px;
+}
+#no-color-link {
+    color: #aaa;
 }
 
 /* Media query para Mobile */
