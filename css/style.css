@@ -256,11 +256,11 @@ a {
 .rodape {
     margin: 0 auto;
     background-color: #174b4b;
-    color: white;
+    color: #aaaaaa;
     text-align: center;
 }
 .rodape a {
-    color: white;
+    color: #aaaaaa;
     margin: 5px;
 }
 
