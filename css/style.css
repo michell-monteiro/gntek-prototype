@@ -261,7 +261,9 @@ a {
 }
 .rodape a {
     color: #aaaaaa;
-    margin: 5px;
+}
+.rodape p {
+    padding: 10px;
 }
 
 /* Media query para Mobile */
