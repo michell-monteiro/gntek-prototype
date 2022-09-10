@@ -78,6 +78,11 @@ a {
     color: var(--cor-principal);
     text-decoration: none;
 }
+#buttom-color:hover {
+    background-color: #174b4b;
+    color: white;
+    transition-duration: .7s;
+}
 
 /* Recurso mobile do Menu hamburguer */
 .nav-list {
@@ -153,7 +158,11 @@ a {
     background: black url('../img/circuito-principal-foto-destaque.jpg') bottom center no-repeat;
     background-size: cover;
 }
-
+#buttom-color2:hover {
+    background-color: var(--cor-principal);
+    color: white;
+    transition-duration: .7s;
+}
 /* #destaque-img {
     background: black url('../img/circuito-principal-foto-destaque.jpg') bottom center no-repeat;
     background-size: cover;
@@ -209,6 +218,11 @@ a {
 }
 
 /* Diferencial */
+/* .bg-diferencial {
+    background: black url('../img/aparelho-calibrado.png') 
+    bottom center no-repeat fixed;
+    background-size: cover;
+} */
 .diferencial {
     max-width: 960px;
     margin: 0 auto;
@@ -216,7 +230,6 @@ a {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    border-bottom: 3px solid var(--cor-principal);
     background-color: #fff;
 }
 .diferencial h1 {
@@ -234,28 +247,44 @@ a {
 }
 
 /* O que está esperando? */
+.bg-contato {
+    background-color: #174b4b;
+}
 .contato {
     max-width: 960px;
     margin: 0 auto;
     padding: 60px 0px;
     display: flex;
     align-items: center;
+    flex-direction: column;
     flex-wrap: wrap;
 }
 .contato h1 {
     font-size: 3em;
     margin-bottom: .5em;
+    color: white;
 }
 .contato p {
     font-size: 1.25em;
     line-height: 1.4;
     margin-bottom: 1em;
+    color: #aaa;
+}
+#buttom-final {
+    padding: 10px;
+    font-size: 2em;
+    color: var(--cor-principal);
+}
+#buttom-final:hover {
+    background-color: var(--cor-principal);
+    color: white;
+    transition-duration: .7s;
 }
 
 /* Contato */
 .rodape {
     margin: 0 auto;
-    background-color: #174b4b;
+    background-color: #010d11;
     color: #aaaaaa;
     text-align: center;
 }
