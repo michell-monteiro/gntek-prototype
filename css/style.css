@@ -246,29 +246,31 @@ a {
     }
 
     .menu-nav a {
-        color: #A54206;
+        color: white;
         border-radius: 10px;
     }
 
     .menu-nav a:hover {
         transition-duration: 0.5s;
-        color: #ff9900;
+        background-color: white;
+        color: var(--cor-principal);
+        text-decoration: none;
     }
 
     .nav-list {
         position: absolute;
-        top: 26vh;
+        top: 11vh;
         right: 0;
-        width: 75vw;
+        width: 60vw;
         height: 70vh;
-        background-color: white;
+        background-color: var(--cor-principal);
         flex-direction: column;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-between;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
-        border-bottom: 1px solid orange;
         border-radius: 0px 0px 0px 10px;
+        z-index: 3;
     }
 
     .nav-list li{
