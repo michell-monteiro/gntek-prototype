@@ -303,9 +303,13 @@ a {
 }
 
 /* Media query para Mobile */
-@media (max-width: 600px) {
+@media (max-width: 710px) {
     body {
         overflow-x: hidden;
+    }
+
+    .opacity h1 {
+        font-size: 2.5em;
     }
 
     .menu-nav a {
