@@ -9,6 +9,10 @@
     --cor-principal: #249696;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Nunito", Helvetica, sans-serif;
 }
